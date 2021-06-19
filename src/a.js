@@ -1,5 +1,2 @@
-const x = import("./b");
-
-console.log("a");
-
-new cWorker();
+import Carousel from "react-multi-carousel";
+console.log(Carousel);
