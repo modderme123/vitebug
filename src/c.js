@@ -1,3 +1,2 @@
-import "./b";
-
-console.log("c");
+console.log("c", this);
+export default "hi";

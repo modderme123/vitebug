@@ -1,7 +1,5 @@
-import bWorker from "./b?worker";
-import cWorker from "./c?worker";
+const x = import("./b");
 
 console.log("a");
 
-new bWorker();
 new cWorker();

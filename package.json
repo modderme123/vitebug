@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^2.0.5"
+    "vite": "^2.3.5"
   }
 }
