@@ -1,13 +1,19 @@
 import {defineConfig} from "vite";
 export default defineConfig({
   build: {
-    polyfillDynamicImport: false,
-    target: 'esnext',
-    minify: "esbuild",
+    lib: {
+      entry: "step1/a.js",
+      name: "mylib",
+      formats: ['es'],
+    },
+    outDir: "lib",
+    minify: false,
     rollupOptions: {
       output: {
-        manualChunks: {}
-      }
+        dir: 'lib',
+        format: 'es',
+        entryFileNames: undefined,
+      },
     }
   },
 });

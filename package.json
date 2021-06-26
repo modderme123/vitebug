@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build"
+    "step1": "vite build",
+    "step2": "vite -c vite2.config.js build",
+    "step2dev": "vite -c vite2.config.js",
+    "build": "npm run step1 && npm run step2",
+    "start": "npm run step1 && npm run step2dev"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^2.3.5"
+    "vite": "^2.3.8"
   }
 }
