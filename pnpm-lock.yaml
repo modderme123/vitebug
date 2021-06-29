@@ -1,7 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
+  prettier: ^2.3.2
   vite: ^2.3.5
+
+dependencies:
+  prettier: 2.3.2
 
 devDependencies:
   vite: 2.3.5
@@ -60,6 +64,12 @@ packages:
       nanoid: 3.1.23
       source-map-js: 0.6.2
     dev: true
+
+  /prettier/2.3.2:
+    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
 
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
